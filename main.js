@@ -11,8 +11,8 @@ window.onscroll = function () {
 };
 const scrollFunction = () => {
     if (
-        document.body.scrollTop > 200 ||
-        document.documentElement.scrollTop > 200
+        document.body.scrollTop > 300 ||
+        document.documentElement.scrollTop > 300
     ) {
         backToTopButton.style.display = "block";
     } else {

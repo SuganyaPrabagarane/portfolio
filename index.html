@@ -8,7 +8,6 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="portfolio-container">
     
       <header>
         <div class="container">
@@ -41,7 +40,7 @@
 
       <div class ="hero-section">
         <div class="hero-image">
-          <img src="/herobanner-image.webp" alt="Hero image">
+           <img src="/herobanner-image.webp" alt="Hero image"> 
         </div>
           <div class ="hero-text">
             <h1>Suganya Prabagarane</h1> <br><br>
@@ -99,7 +98,7 @@
           <div class="boxes">
             <div class="box">
                 <div class="image">
-                    <img src="/atm.png" alt="My Project">                    
+                    <img src="/atm1.png" alt="My Project">                    
                 </div>
                 <div class="text">
                     <p>ATM Simulator</p>
@@ -145,24 +144,27 @@
     <footer>
       <div class="container">
           <form >
-            <div class = "contact-form">
               <h2>Contact us</h2><br>
-              <label for="name">Your name</label>
-              <input type="text" id="name" ><br><br>
+             <div class="input-wrapper">
+                <label for="name">Your name</label>
+                <input type="text" id="name" >
+              </div>
+              <div class="input-wrapper">
               <label for="email">Your email</label>
-              <input type="email" id="email" ><br><br>
-              <label for="message">Message to me</label>
-              <input type="text" id="message"><br><br>
-               <button id="messageBtn">SEND MESSAGE</button><br><br>
-               <p>Copyright &#9400 My Website 2025</p>
+              <input type="email" id="email" >
             </div>
-          </form>  
+            <div class="input-wrapper">
+              <label for="message">Message to me</label>
+              <input type="text" id="message">
+            </div>
+            <button id="messageBtn">SEND MESSAGE</button>
+              
+          </form>
+          <p>Copyright &#9400 My Website 2025</p>
           <button id="backtotop">TOP &#8593</button>
         </div>
    
     </footer> 
-
-   </div>
 
     <script src="main.js"></script>
 
